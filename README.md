@@ -12,5 +12,5 @@ Student Info
 
 * Name: Lê Phước Long
 * ID: BI9-153
-* Group ID: 2
+* Group ID: 10
 
