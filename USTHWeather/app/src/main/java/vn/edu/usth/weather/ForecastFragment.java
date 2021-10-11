@@ -1,8 +1,9 @@
-package com.example.usthweather;
-
+package vn.edu.usth.weather;
 
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +15,6 @@ import android.widget.TextView;
  * A simple {@link Fragment} subclass.
  * Use the {@link ForecastFragment#newInstance} factory method to
  * create an instance of this fragment.
- *
  */
 public class ForecastFragment extends Fragment {
 
@@ -26,6 +26,10 @@ public class ForecastFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    public ForecastFragment() {
+        // Required empty public constructor
+    }
 
     /**
      * Use this factory method to create a new instance of
@@ -45,10 +49,6 @@ public class ForecastFragment extends Fragment {
         return fragment;
     }
 
-    public ForecastFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,20 +63,23 @@ public class ForecastFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         LinearLayout ll = new LinearLayout(getActivity());
-        ll.setBackgroundColor(0xFF00FF00);
+        ll.setBackgroundColor(0x0000FF);
         ll.setOrientation(LinearLayout.VERTICAL);
 
-        TextView thursday = new TextView(getActivity());
-        thursday.setText("Thursday");
-        ImageView weather = new ImageView(getActivity());
-        weather.setImageResource(R.drawable.weather);
+//        TextView thursday = new TextView(getActivity());
+//        thursday.setText("Thursday is a beautiful day!");
+//        ImageView weather = new ImageView(getActivity());
+//        weather.setImageResource(R.drawable.weather);
 
-        ll.addView(thursday);
-        ll.addView(weather);
+//        ll.addView(thursday);
+//        ll.addView(weather);
+
+
 
 
         return ll;
+
+
+
     }
-
-
 }
