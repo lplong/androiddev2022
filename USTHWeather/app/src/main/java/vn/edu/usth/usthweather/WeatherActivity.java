@@ -1,4 +1,4 @@
-package vn.edu.usth.weather;
+package vn.edu.usth.usthweather;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +13,10 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-        ForecastFragment ff = ForecastFragment.newInstance("", "");
+        ForecastFragment ff = ForecastFragment.newInstance("","");
         getSupportFragmentManager().beginTransaction().add(
                 R.id.container, ff).commit();
+
     }
 
     @Override
@@ -28,6 +29,7 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.i("Weather","onResume");
+
     }
 
     @Override

@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "vn.edu.usth.weather"
+        applicationId "vn.edu.usth.usthweather"
         minSdk 21
         targetSdk 31
         versionCode 1

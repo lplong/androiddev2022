@@ -3,11 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/longl/Desktop/androiddev2022/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1925925925925926" />
-        <entry key="..\:/Users/longl/Desktop/androiddev2022/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1925925925925926" />
-        <entry key="..\:/Users/longl/Desktop/androiddev2022/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
-        <entry key="..\:/Users/longl/Desktop/androiddev2022/app/src/main/res/layout/activity_weather.xml" value="0.17889492753623187" />
-        <entry key="..\:/Users/longl/Desktop/androiddev2022/app/src/main/res/layout/fragment_forecast.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.25" />
+        <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_forecast.xml" value="0.2046875" />
       </map>
     </option>
   </component>

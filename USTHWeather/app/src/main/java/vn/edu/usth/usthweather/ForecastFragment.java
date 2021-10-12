@@ -1,4 +1,4 @@
-package vn.edu.usth.weather;
+package vn.edu.usth.usthweather;
 
 import android.os.Bundle;
 
@@ -62,24 +62,19 @@ public class ForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+//
         LinearLayout ll = new LinearLayout(getActivity());
-        ll.setBackgroundColor(0x0000FF);
+        ll.setBackgroundColor(0x20FF0000);
         ll.setOrientation(LinearLayout.VERTICAL);
 
 //        TextView thursday = new TextView(getActivity());
-//        thursday.setText("Thursday is a beautiful day!");
+//        thursday.setText("Thursday is beautiful!");
 //        ImageView weather = new ImageView(getActivity());
 //        weather.setImageResource(R.drawable.weather);
-
+//
 //        ll.addView(thursday);
 //        ll.addView(weather);
 
-
-
-
         return ll;
-
-
-
     }
 }
