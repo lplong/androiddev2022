@@ -56,3 +56,4 @@ public class WeatherActivity extends AppCompatActivity {
         Log.i("Weather","onCreate");
     }
 }
+
