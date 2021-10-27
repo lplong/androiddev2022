@@ -6,6 +6,8 @@
         <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.25" />
         <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_forecast.xml" value="0.2046875" />
+        <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/longl/Desktop/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather_forecast.xml" value="0.2864583333333333" />
       </map>
     </option>
   </component>
